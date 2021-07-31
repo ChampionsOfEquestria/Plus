@@ -1,0 +1,3 @@
+playerhead {
+  player brigadier:string single_word;
+}

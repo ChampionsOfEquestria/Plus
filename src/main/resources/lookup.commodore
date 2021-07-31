@@ -1,0 +1,9 @@
+lookup {
+  -i {
+    player brigadier:string single_word;
+  }
+  -r {
+  	player brigadier:string single_word;
+  }
+  player brigadier:string single_word;
+}

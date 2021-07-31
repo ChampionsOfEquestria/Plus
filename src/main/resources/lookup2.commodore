@@ -1,0 +1,3 @@
+lookup2 {
+  player brigadier:string single_word;
+}

@@ -1,0 +1,53 @@
+name: CoEPlus
+author: SweetieBelle
+main: town.championsofequestria.plus.PlusPlugin
+version: $version
+api-version: 1.15
+description: >
+            Adds Channels and PM channels.
+commands:
+    alicorn:
+      description: Gives you wings
+      usage: /alicorn
+    dealicorn:
+      description: Removes your wings
+      usage: /dealicorn
+    artist:
+      description: Artist commands
+      usage: /artist <add|remove> player
+    hub:
+      description: Warps to hub
+      usage: /hub
+    factionsspawn:
+      description: Warps to factions
+      usage: /factionsspawn
+    survivalspawn:
+      description: Warps to survival
+      usage: /survivalspawn
+    playerhead:
+      description: Gives you a head
+      usage: /playerhead
+    notify:
+      description: Sends a message to staff
+      usage: /notify
+    noble:
+      description: Noble commands
+      usage: /noble <add|remove> player
+    crystal:
+      description: Crystal commands
+      usage: /crystal <add|remove> player
+    a:
+      description: Sends a quick message to admin chat
+      usage: /a <message>
+    l:
+      description: Sends a quick message to local chat
+      usage: /l <message>
+    g:
+      description: Sends a quick message to global chat
+      usage: /g <message>
+    lookup:
+      description: Look up a player
+      usage: /lookup <-i|-r|player> [player]
+    lookup2:
+      description: Lists player IPs
+      usage: /lookup2  [player]
