@@ -1,3 +1,4 @@
+
 package town.championsofequestria.plus;
 
 import java.io.File;
@@ -37,19 +38,19 @@ public class JailInterceptor extends Module {
 
         @EventHandler(priority = EventPriority.NORMAL, ignoreCancelled = true)
         public void onHeroChatMessage(final PlayerCommandPreprocessEvent event) {
-            if(event.getPlayer())
-            String command = event.getMessage();
-            if(command.startsWith("/")) {
-                
-            }
+//      if(event.getPlayer())
+//          String command = event.getMessage();
+//      if(command.startsWith("/")) {
+//          
+//      } 
         }
-        
+
         private void handle(String message) {
             String[] parts = message.split(" ");
-            switch(parts[0].toLowerCase()) {
+            switch (parts[0].toLowerCase()) {
                 case "jail": {
                     Player ply = Bukkit.getPlayer(parts[1]);
-                    Bukkit.dispatchCommand(Bukkit.getConsole, commandLine)
+//                    Bukkit.dispatchCommand(Bukkit.getConsoleSender(), commandLine);
                     return;
                 }
                 case "unjail": {
