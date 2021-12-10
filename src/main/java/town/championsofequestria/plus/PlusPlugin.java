@@ -23,6 +23,8 @@ public class PlusPlugin extends JavaPlugin {
 
     private void registerCommands() {
         brigadier = new Brigadier(this);
+        if(!brigadier.isAvailable())
+            return;
         brigadier.register(getCommand("alicorn"));
         brigadier.register(getCommand("dealicorn"));
         brigadier.register(getCommand("artist"));
