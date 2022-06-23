@@ -1,8 +1,8 @@
 name: CoEPlus
 author: SweetieBelle
 main: town.championsofequestria.plus.PlusPlugin
-version: 3
-api-version: 1.18
+version: @VERSION@
+api-version: 1.19
 description: >
             Adds Channels and PM channels.
 commands:
